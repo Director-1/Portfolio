@@ -9,6 +9,7 @@ html, body {
     /* 1 раздел*/
     --to_p1: 10%;
     --wed_1: 490px;
+    --pad_1: 10%;
     /* 2 раздел */
     --pos_x_2: 50%;/* положение 1 */
     --pos_x_3: 100%;/* положение 2*/
@@ -24,6 +25,7 @@ html, body {
         /* 1 раздел*/
         --to_p1: 2%;
         --wed_1: 460px;
+        --pad_1: 5px;
         /* 2 раздел */
         --pos_x_2: 0;
         --pos_x_3: 0; 
@@ -69,7 +71,7 @@ h1 {
 #biografia {
     position: absolute;
     top: 10%;
-    margin-left: 10%;
+    margin-left: var(--pad_1);
 }
 */
 #biografia {
